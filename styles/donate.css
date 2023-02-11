@@ -42,3 +42,144 @@
     border: 0;
     padding: 18px 35px;
 }
+
+/* donate today section */
+.donate {
+    text-align: center;
+    margin: 130px 335px;
+}
+
+.section-title {
+    font-size: 45px;
+    font-weight: 700px;
+}
+
+.section-description {
+    font-size: 18px;
+    color: rgb(156, 156, 156);
+}
+
+.donate>h2 {
+    margin-bottom: 20px;
+}
+
+.donate .section-description {
+    margin-bottom: 50px;
+}
+
+.donate-money {
+    display: flex;
+    gap: 22px;
+}
+
+.money {
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: 700;
+    background-color: #cdcdcd;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.special {
+    background-color: #fdd4d4;
+    border: 1px solid red;
+}
+
+.donate hr {
+    margin-bottom: 50px;
+}
+
+/* donate plan */
+.donate-plan {
+    margin: 130px 150px;
+}
+
+.donate-plan-header {
+    text-align: center;
+    gap: 24px;
+}
+
+.donate-plans {
+    display: flex;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+.plan-1,
+.plan-2,
+.plan-3 {
+    padding: 45px 60px;
+    border-radius: 5px;
+}
+
+.plan-1 {
+    background-color: rgba(79, 157, 166, 0.1);
+    ;
+}
+
+.plan-2 {
+    background-color: rgba(255, 89, 89, 0.1);
+}
+
+.plan-3 {
+    background-color: antiquewhite;
+}
+
+/* dependance section */
+.dependance,
+.survive {
+    display: flex;
+    margin: 130px 150px;
+    gap: 70px;
+}
+
+.dependance .section-title,
+.survive .section-title {
+    margin-bottom: 20px;
+}
+
+.dependance .section-description,
+.survive .section-description {
+    margin-bottom: 30px;
+}
+
+.img-border {
+    border-radius: 10px;
+}
+
+/* Update section */
+.update {
+    text-align: center;
+}
+
+form {
+    background-color: beige;
+    padding: 75px 190px;
+    margin: 130px 150px;
+}
+
+form input {
+    width: 275px;
+    height: 48px;
+    background-color: aliceblue;
+    border: none;
+    box-shadow: 1px 1px 10px gainsboro;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    padding: 50px 600px;
+    background-color: black;
+}
+
+footer .section-title {
+    font-family: 'Niconne', cursive;
+    color: #ff6b01;
+}
+
+footer p {
+    color: #FFFFFF;
+}
